@@ -7,4 +7,27 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="13.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="tile_templates.yml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+<!--  <ItemGroup>-->
+<!--    <Content Include="people.yaml">-->
+<!--      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
+<!--    </Content>-->
+<!--  </ItemGroup>-->
+<!--  <ItemGroup>-->
+<!--    <None Remove="tile_templates.yml" />-->
+<!--    <Resource Include="tile_templates.yml" />-->
+<!--  </ItemGroup>-->
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\net7.0\" />
+  </ItemGroup>
+
 </Project>

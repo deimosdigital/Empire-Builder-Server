@@ -1,0 +1,13 @@
+﻿# spawn weights are compared with ratio relative to total sum of weights
+- Name: Plains
+  SpawnWeight: 30
+- Name: Mountain
+  SpawnWeight: 10
+- Name: Volcano
+  SpawnWeight: 20
+- Name: Forest
+  SpawnWeight: 20
+- Name: Water
+  SpawnWeight: 20
+- Name: Desert
+  SpawnWeight: 20
